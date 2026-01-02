@@ -90,7 +90,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi) | fws_nwi | Collection, Item | Proposal | 1.0.0 | 2022-10-24 | Describes the U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI) products |
 | [Video](https://github.com/stac-extensions/video) | video | Collection, Item | Proposal | 1.0.0 | 2022-03-15 | Provides a way to describe video assets. |
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | Proposal | 1.0.0 | 2023-11-09 | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
-| [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
+| [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, | Catalog, Collection, Item | Proposal | 1.3.0 | 2026-01-01 | Allows to provide links to web maps for visualization purposes |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 | [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)* | aerial-photo | Collection, Item | *WIP* | *Unknown* | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
 | [Application](https://github.com/stac-extensions/application) | application | Assets, Item, Links | *WIP* | **Unreleased** | N/A | Describes applications (examples, workflows, ...) and links to them for execution. |
@@ -108,7 +108,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jan 01 2026, 01:01 UTC
+* **Last updated:** Jan 02 2026, 00:55 UTC
 * **Count:** 84
 
 ## Adding a new extension
