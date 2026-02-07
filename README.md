@@ -82,7 +82,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Region](https://github.com/stac-extensions/region) | region | Collection, Item | Proposal | 0.1.0 | 2025-07-25 | An extension to describe geographical regions |
 | [Sentinel-1](https://github.com/stac-extensions/sentinel-1) | s1 | Item | Proposal | 0.2.0 | 2024-06-10 | Sentinel-1 STAC Extension  |
 | [Sentinel-5P](https://github.com/stac-extensions/sentinel-5p) | s5p | Item | Proposal | 0.2.0 | 2024-06-10 | Sentinel-5P STAC Extension  |
-| [Solar System](https://github.com/stac-extensions/ssys) | ssys | Catalog, Collection, Item | Proposal | 1.1.0 | 2023-10-19 | SSYS STAC Extension Specification |
+| [Solar System](https://github.com/stac-extensions/ssys) | ssys | Catalog, Collection, Item | Proposal | 1.1.1 | 2026-02-06 | SSYS STAC Extension Specification |
 | [Stereo Imagery](https://github.com/stac-extensions/stereo-imagery) | stereo-img | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-08-02 | Describes (tri-)stereo imagery that consists of multiple captures, often for 3D use cases. |
 | [Themes](https://github.com/stac-extensions/themes) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-05-11 | A knowledge organization system used to classify the resource (controlled vocabularies / keywords) |
 | [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiles | Catalog, Collection, Item | Proposal | 1.0.0 | 2024-08-23 | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
@@ -109,7 +109,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Feb 06 2026, 01:04 UTC
+* **Last updated:** Feb 07 2026, 01:03 UTC
 * **Count:** 85
 
 ## Adding a new extension
