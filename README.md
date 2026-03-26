@@ -63,7 +63,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Authentication](https://github.com/stac-extensions/authentication) | auth | Asset, Catalog, Collection, Item, Links | Proposal | 1.1.0 | 2024-05-27 | Adds fields to define authentication or authorization flows used to access Assets and Links behind security |
 | [CEOS-ARD](https://github.com/stac-extensions/ceos-ard) | ceosard | Collection, Item | Proposal | 0.2.0 | 2024-05-07 | Describes how to comply to the CEOS-ARD specifications with STAC. Supersedes the STAC CARD4L extension. |
 | [CF](https://github.com/stac-extensions/cf) | cf | Collection, Item | Proposal | 0.2.0 | 2023-08-30 | Allows to provide the Standard Name Table based on the CF metadata convention. |
-| [CMIP6](https://github.com/stac-extensions/cmip6) | cmip6 | Item | Proposal | 3.0.0 | 2025-09-23 | None |
+| [CMIP6](https://github.com/stac-extensions/cmip6) | cmip6 | Item | Proposal | 3.0.1 | 2026-03-25 | None |
 | [Contacts](https://github.com/stac-extensions/contacts) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-08-15 | A list of contacts with detailed information such as address, phone numbers, emails etc. |
 | [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)* | disaster | Collection, Item | Proposal | 1.1.0 | 2024-06-05 | Disaster Charter Extension Specification |
 | [Earthquake](https://github.com/stac-extensions/earthquake) | eq | Collection, Item | Proposal | 1.0.0 | 2025-01-20 | Earthquake Extension Specification |
@@ -110,7 +110,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Mar 25 2026, 01:10 UTC
+* **Last updated:** Mar 26 2026, 01:15 UTC
 * **Count:** 86
 
 ## Adding a new extension
