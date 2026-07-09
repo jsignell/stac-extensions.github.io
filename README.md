@@ -43,12 +43,9 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | 2021-04-30 | Provides a way to anonymize location data |
 | [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l) | card4l | Item | Pilot | 0.1.0 | 2022-01-25 | Describes how to comply to the CEOS CARD4L specifications (SAR and Optical) with STAC |
 | [Classification](https://github.com/stac-extensions/classification) | classification | Collection, Item | Pilot | 2.0.0 | 2024-05-18 | Describes categorical values and bitfields to give values in a file a certain meaning (classification). |
-| [Grid](https://github.com/stac-extensions/grid) | grid | Item | Pilot | 1.1.0 | 2022-12-02 | Describes gridded data products, especially the grid code. |
 | [Label](https://github.com/stac-extensions/label) | label | Collection, Item | Pilot | 1.0.1 | 2022-01-21 | Items that relate labeled AOIs with source imagery. |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | 2021-06-09 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
-| [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Pilot | 1.0.0 | 2022-09-22 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
 | [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Pilot | 1.0.0 | 2022-10-24 | STAC Extension for NOAA MRMS QPE (Multi-Radar Multi-Sensor Quantitative Precipitation Estimation) products |
-| [Order](https://github.com/stac-extensions/order) | order | Collection, Item | Pilot | 1.1.0 | 2023-01-05 | Allows assets ordering management within STAC specification. |
 | [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc | Collection, Item | Pilot | 2.0.0 | 2024-10-24 | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
 | [Rendering](https://github.com/stac-extensions/render) | renders | Collection, Item | Pilot | 2.0.0 | 2024-11-19 | Provide consumers with the information required to view an asset properly (e.g. on a online map) |
 | [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Pilot | 0.2.0 | 2022-08-01 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
@@ -67,24 +64,17 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Contacts](https://github.com/stac-extensions/contacts) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-08-15 | A list of contacts with detailed information such as address, phone numbers, emails etc. |
 | [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)* | disaster | Collection, Item | Proposal | 1.1.0 | 2024-06-05 | Disaster Charter Extension Specification |
 | [Earthquake](https://github.com/stac-extensions/earthquake) | eq | Collection, Item | Proposal | 1.0.0 | 2025-01-20 | Earthquake Extension Specification |
-| [Example Links](https://github.com/stac-extensions/example-links) | example | Catalog, Collection, Item | Proposal | 0.0.1 | 2023-08-14 | Allows to provide links to examples, e.g. code snippets. |
-| [Forecast](https://github.com/stac-extensions/forecast) | forecast | Collection, Item | Proposal | 0.2.0 | 2025-01-09 | Common fields for (meteorological/weather) forecast data. |
-| [InSAR](https://github.com/stac-extensions/insar) | insar | Item | Proposal | 1.0.0 | 2024-03-11 | STAC extension for InSAR (Interferometric Synthetic Aperture Radar) |
 | [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-03-06 | Fields and recommendations around making multi-lingual STAC catalogs available.  |
 | [Link Templates](https://github.com/stac-extensions/link-templates) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-04-16 | A construct to provide templated links in STAC, as originally defined in OGC APIs. |
 | [Merkle Tree](https://github.com/stacchain/merkle-tree)* | merkle | Catalog, Collection, Item | Proposal | 1.1.1 | 2026-01-13 | A STAC extension that enhances metadata integrity by encoding items, collections, and catalogs using Merkle hash trees. |
 | [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Asset, Collection, Item, Links | Proposal | 0.2.0 | 2024-03-28 | An Item and Collection extension to provide labeled training data for machine learning models. |
 | [Monty](https://github.com/IFRCGo/monty-stac-extension)* | monty | Collection, Item | Proposal | 1.3.0 | 2026-06-11 | Provide a set of new fields and data type to build a Montandon, Global Crisis Data Bank |
 | [Open Science Catalog](https://github.com/stac-extensions/osc) | osc | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-02-19 | STAC Extension for the ESA Open Science Catalog |
-| [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery) | pers | Collection, Item | Proposal | 1.0.0 | 2022-06-27 | Describes perspective imagery collected by photogrammetric or non-photogrammetric cameras |
-| [Product](https://github.com/stac-extensions/product) | product | Collection, Item | Proposal | 1.0.0 | 2025-06-22 | Generic Product-related properties for STAC |
 | [Quality](https://github.com/linz/stac/tree/master/extensions/quality)* | quality | Collection | Proposal | *Unknown* | *Unknown* | Geospatial quality and accuracy of collections, such as horizontal and vertical accuracy. |
 | [Region](https://github.com/stac-extensions/region) | region | Collection, Item | Proposal | 0.1.0 | 2025-07-25 | An extension to describe geographical regions |
 | [Sentinel-1](https://github.com/stac-extensions/sentinel-1) | s1 | Item | Proposal | 0.2.0 | 2024-06-10 | Sentinel-1 STAC Extension  |
 | [Sentinel-5P](https://github.com/stac-extensions/sentinel-5p) | s5p | Item | Proposal | 0.2.0 | 2024-06-10 | Sentinel-5P STAC Extension  |
 | [Solar System](https://github.com/stac-extensions/ssys) | ssys | Catalog, Collection, Item | Proposal | 1.1.1 | 2026-02-06 | SSYS STAC Extension Specification |
-| [Stereo Imagery](https://github.com/stac-extensions/stereo-imagery) | stereo-img | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-08-02 | Describes (tri-)stereo imagery that consists of multiple captures, often for 3D use cases. |
-| [Themes](https://github.com/stac-extensions/themes) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-05-11 | A knowledge organization system used to classify the resource (controlled vocabularies / keywords) |
 | [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiles | Catalog, Collection, Item | Proposal | 1.0.0 | 2024-08-23 | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
 | [TrainingDML-AI](https://github.com/openrsgis/trainingdml-ai-extension)* | tdml | Collection, Item | Proposal | 1.0.0 | 2023-05-24 | Detailed metadata for formalizing the information model of geospatial EO machine learning training data.  |
 | [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi) | fws_nwi | Collection, Item | Proposal | 1.0.0 | 2022-10-24 | Describes the U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI) products |
@@ -97,8 +87,8 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Application](https://github.com/stac-extensions/application) | application | Assets, Item, Links | *WIP* | **Unreleased** | N/A | Describes applications (examples, workflows, ...) and links to them for execution. |
 | [Camera](https://github.com/linz/stac/tree/master/extensions/camera)* | camera | Collection, Item | *WIP* | *Unknown* | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
 | [Film](https://github.com/linz/stac/tree/master/extensions/film)* | film | Collection, Item | *WIP* | *Unknown* | *Unknown* | Film related metadata, such as roll, negative sequence and other physical attributes. Especially useful for digitised historic aerial imagery surveys. |
-| [Hyperspectral Imagery](https://github.com/stac-extensions/hsi) | hsi | Collection, Item | *WIP* | **Unreleased** | N/A | Extension for Hyperspectral Imagery, to preserve the wavelength information for Items. |
-| [Moving Features](https://github.com/stac-extensions/moving-features) | mf | Item | *WIP* | **Unreleased** | N/A | stac extension for moving features |
+| [hsi](https://github.com/stac-extensions/hsi) | *Unknown* | *Unknown* | *WIP* | **Unreleased** | N/A | Extension for Hyperspectral Imagery, to preserve the wavelength information for Items. |
+| [moving-features](https://github.com/stac-extensions/moving-features) | *Unknown* | *Unknown* | *WIP* | **Unreleased** | N/A | stac extension for moving features |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
 | [Template](https://github.com/stac-extensions/dggs) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | N/A | STAC Extension that describes DGGS datasets |
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | Deprecated | **Unreleased** | N/A | Defines how virtual assets can be composed from existing assets in STAC |
@@ -110,7 +100,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jul 08 2026, 01:27 UTC
+* **Last updated:** Jul 09 2026, 01:50 UTC
 * **Count:** 86
 
 ## Adding a new extension
