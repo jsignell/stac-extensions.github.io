@@ -29,7 +29,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [File Info](https://github.com/stac-extensions/file) | file | Catalog, Collection, Item | Stable | 2.1.0 | 2021-12-11 | Specifies file-related details such as size, data type and checksum for assets and links in STAC. |
 | [Landsat](https://github.com/stac-extensions/landsat) | landsat | Item | Stable | 2.0.0 | 2023-11-07 | Landsat data fields |
 | [Projection](https://github.com/stac-extensions/projection) | proj | Collection, Item | Stable | 2.0.0 | 2024-07-22 | Provides a way to describe Items whose assets are in a geospatial projection. |
-| [SAR](https://github.com/stac-extensions/sar) | sar | Collection, Item | Stable | 1.3.1 | 2026-06-01 | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
+| [SAR](https://github.com/stac-extensions/sar) | sar | Collection, Item | Stable | 1.3.2 | 2026-07-13 | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
 | [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Stable | 1.2.0 | 2026-04-30 | Satellite related metadata for data collected from satellites. |
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | 2021-07-26 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.1.0 | 2025-08-15 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
@@ -59,7 +59,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Additional Identifiers](https://github.com/stac-extensions/external-ids) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-11-18 | A construct to provide additional identifiers in STAC, as originally defined in OGC APIs. |
 | [Altimetry](https://github.com/stac-extensions/altimetry) | altm | Item | Proposal | 0.1.0 | 2024-06-10 | Altimetry Extension Specification |
 | [Archive](https://github.com/stac-extensions/archive) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-12-19 | Archive extension that deals with cases when files are not directly accessible on their respective storage, but are part of an archive file, such as ZIP or TAR archives.  |
-| [Asset Templates](https://github.com/stac-extensions/asset-templates) | - | Collection, Item | Proposal | 0.1.0 | 2026-07-09 | A construct to provide templated assets in STAC, similar to link templates. |
+| [Asset Templates](https://github.com/stac-extensions/asset-templates) | - | Collection, Item | Proposal | 0.1.0 | 2026-07-13 | A construct to provide templated assets in STAC, similar to link templates. |
 | [Attribution](https://github.com/stac-extensions/attribution) | - | Collection, Item | Proposal | 0.1.0 | 2024-08-01 | Allows to provide an attribution, e.g. for maps, compliant with OGC API Collections |
 | [Authentication](https://github.com/stac-extensions/authentication) | auth | Asset, Catalog, Collection, Item, Links | Proposal | 1.1.0 | 2024-05-27 | Adds fields to define authentication or authorization flows used to access Assets and Links behind security |
 | [CEOS-ARD](https://github.com/stac-extensions/ceos-ard) | ceosard | Collection, Item | Proposal | 0.2.0 | 2024-05-07 | Describes how to comply to the CEOS-ARD specifications with STAC. Supersedes the STAC CARD4L extension. |
@@ -71,6 +71,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Example Links](https://github.com/stac-extensions/example-links) | example | Catalog, Collection, Item | Proposal | 0.0.1 | 2023-08-14 | Allows to provide links to examples, e.g. code snippets. |
 | [Forecast](https://github.com/stac-extensions/forecast) | forecast | Collection, Item | Proposal | 0.2.0 | 2025-01-09 | Common fields for (meteorological/weather) forecast data. |
 | [InSAR](https://github.com/stac-extensions/insar) | insar | Item | Proposal | 1.0.0 | 2024-03-11 | STAC extension for InSAR (Interferometric Synthetic Aperture Radar) |
+| [Instruments](https://github.com/stac-extensions/instruments) | - | Catalog, Collection, Item | Proposal | 0.1.0 | 2026-07-13 | Fields about instruments |
 | [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-03-06 | Fields and recommendations around making multi-lingual STAC catalogs available.  |
 | [Link Templates](https://github.com/stac-extensions/link-templates) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-04-16 | A construct to provide templated links in STAC, as originally defined in OGC APIs. |
 | [Merkle Tree](https://github.com/stacchain/merkle-tree)* | merkle | Catalog, Collection, Item | Proposal | 1.1.1 | 2026-01-13 | A STAC extension that enhances metadata integrity by encoding items, collections, and catalogs using Merkle hash trees. |
@@ -102,6 +103,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Moving Features](https://github.com/stac-extensions/moving-features) | mf | Item | *WIP* | **Unreleased** | N/A | stac extension for moving features |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
 | [Template](https://github.com/stac-extensions/dggs) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | N/A | STAC Extension that describes DGGS datasets |
+| [Vegetation Phenology and Productivity](https://github.com/stac-extensions/vpp) | vpp | Collection, Item | *WIP* | **Unreleased** | N/A | STAC Extension for Vegetation Phenology and Productivity (CLMS) |
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | Deprecated | **Unreleased** | N/A | Defines how virtual assets can be composed from existing assets in STAC |
 | [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | dlm | Asset, Collection, Item, Links | Deprecated | 1.0.0 | 2024-04-18 | Deep Learning Model STAC Extension (deprecated, see https://github.com/stac-extensions/mlm instead) |
 | [Item Assets Definition](https://github.com/stac-extensions/item-assets) | - | Collection | Deprecated | 1.0.0 | 2021-03-08 | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
@@ -111,8 +113,8 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jul 13 2026, 01:29 UTC
-* **Count:** 87
+* **Last updated:** Jul 14 2026, 01:18 UTC
+* **Count:** 89
 
 ## Adding a new extension
 
