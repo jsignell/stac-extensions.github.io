@@ -96,13 +96,14 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, | Catalog, Collection, Item | Proposal | 1.3.0 | 2026-01-01 | Allows to provide links to web maps for visualization purposes |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 | [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)* | aerial-photo | Collection, Item | *WIP* | *Unknown* | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
-| [Application](https://github.com/stac-extensions/application) | application | Assets, Item, Links | *WIP* | **Unreleased** | N/A | Describes applications (examples, workflows, ...) and links to them for execution. |
+| [Application](https://github.com/stac-extensions/application) | application | Item | *WIP* | **Unreleased** | N/A | Describes applications (examples, workflows, ...) and links to them for execution. |
 | [Camera](https://github.com/linz/stac/tree/master/extensions/camera)* | camera | Collection, Item | *WIP* | *Unknown* | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
 | [Film](https://github.com/linz/stac/tree/master/extensions/film)* | film | Collection, Item | *WIP* | *Unknown* | *Unknown* | Film related metadata, such as roll, negative sequence and other physical attributes. Especially useful for digitised historic aerial imagery surveys. |
 | [Hyperspectral Imagery](https://github.com/stac-extensions/hsi) | hsi | Collection, Item | *WIP* | **Unreleased** | N/A | Extension for Hyperspectral Imagery, to preserve the wavelength information for Items. |
 | [Moving Features](https://github.com/stac-extensions/moving-features) | mf | Item | *WIP* | **Unreleased** | N/A | stac extension for moving features |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
 | [Template](https://github.com/stac-extensions/dggs) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | N/A | STAC Extension that describes DGGS datasets |
+| [VCS](https://github.com/stac-extensions/vcs) | vcs | Catalog, Collection, Item, Link | *WIP* | **Unreleased** | N/A | Metadata about version control systems |
 | [Vegetation Phenology and Productivity](https://github.com/stac-extensions/vpp) | vpp | Collection, Item | *WIP* | **Unreleased** | N/A | STAC Extension for Vegetation Phenology and Productivity (CLMS) |
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | Deprecated | **Unreleased** | N/A | Defines how virtual assets can be composed from existing assets in STAC |
 | [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | dlm | Asset, Collection, Item, Links | Deprecated | 1.0.0 | 2024-04-18 | Deep Learning Model STAC Extension (deprecated, see https://github.com/stac-extensions/mlm instead) |
@@ -113,8 +114,8 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Aug 10 2026, 00:52 UTC
-* **Count:** 89
+* **Last updated:** Aug 11 2026, 00:51 UTC
+* **Count:** 90
 
 ## Adding a new extension
 
