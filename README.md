@@ -61,7 +61,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Archive](https://github.com/stac-extensions/archive) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-12-19 | Archive extension that deals with cases when files are not directly accessible on their respective storage, but are part of an archive file, such as ZIP or TAR archives.  |
 | [Asset Templates](https://github.com/stac-extensions/asset-templates) | - | Collection, Item | Proposal | 0.1.0 | 2026-07-13 | A construct to provide templated assets in STAC, similar to link templates. |
 | [Attribution](https://github.com/stac-extensions/attribution) | - | Collection, Item | Proposal | 0.1.0 | 2024-08-01 | Allows to provide an attribution, e.g. for maps, compliant with OGC API Collections |
-| [Authentication](https://github.com/stac-extensions/authentication) | auth | Asset, Catalog, Collection, Item, Links | Proposal | 1.1.0 | 2024-05-27 | Adds fields to define authentication or authorization flows used to access Assets and Links behind security |
+| [Authentication](https://github.com/stac-extensions/authentication) | auth | Asset, Catalog, Collection, Item, Links | Proposal | 1.2.0 | 2026-09-01 | Adds fields to define authentication or authorization flows used to access Assets and Links behind security |
 | [CEOS-ARD](https://github.com/stac-extensions/ceos-ard) | ceosard | Collection, Item | Proposal | 0.2.0 | 2024-05-07 | Describes how to comply to the CEOS-ARD specifications with STAC. Supersedes the STAC CARD4L extension. |
 | [CF](https://github.com/stac-extensions/cf) | cf | Collection, Item | Proposal | 1.0.0 | 2026-07-30 | Allows to provide the Standard Name Table based on the CF metadata convention. |
 | [CMIP6](https://github.com/stac-extensions/cmip6) | cmip6 | Item | Proposal | 3.0.2 | 2026-03-26 | None |
@@ -114,7 +114,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Sep 01 2026, 02:26 UTC
+* **Last updated:** Sep 02 2026, 01:47 UTC
 * **Count:** 90
 
 ## Adding a new extension
