@@ -53,7 +53,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Rendering](https://github.com/stac-extensions/render) | renders | Collection, Item | Pilot | 2.0.0 | 2024-11-19 | Provide consumers with the information required to view an asset properly (e.g. on a online map) |
 | [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Pilot | 0.2.0 | 2022-08-01 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
 | [Storage](https://github.com/stac-extensions/storage) | storage | Catalog, Collection, Item | Pilot | 2.0.0 | 2024-10-18 | Provides additional fields relating to how the asset is stored in the cloud |
-| [Table](https://github.com/stac-extensions/table) | table | Collection, Item | Pilot | 1.2.0 | 2021-08-30 | Describes tabular data assets using a list of Column objects. Tables can be specified in Collections. |
+| [Table](https://github.com/stac-extensions/table) | table | Collection, Item | Pilot | 1.3.0 | 2026-09-07 | Describes tabular data assets using a list of Column objects. Tables can be specified in Collections. |
 | [Timestamps](https://github.com/stac-extensions/timestamps) | - | Catalog, Collection, Item | Pilot | 1.1.0 | 2023-01-05 | Allows to specify numerous additional timestamps for assets and metadata. |
 | [Accuracy](https://github.com/stac-extensions/accuracy) | accuracy | Collection, Item | Proposal | 1.0.0-beta.1 | 2023-12-18 | Fields to provide estimates of accuracy, both geometric and measurement (e.g., radiometric) accuracy. |
 | [Additional Identifiers](https://github.com/stac-extensions/external-ids) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-11-18 | A construct to provide additional identifiers in STAC, as originally defined in OGC APIs. |
@@ -114,7 +114,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Sep 07 2026, 01:40 UTC
+* **Last updated:** Sep 08 2026, 01:51 UTC
 * **Count:** 90
 
 ## Adding a new extension
