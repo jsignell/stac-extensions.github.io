@@ -34,7 +34,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | 2021-07-26 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.1.0 | 2025-08-15 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
 | [Datacube](https://github.com/stac-extensions/datacube) | cube | Collection, Item | Candidate | 2.3.0 | 2025-06-18 | Datacube related metadata to describe their dimensions and variables. |
-| [Machine Learning Model](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Candidate | 1.5.2 | 2026-05-05 | STAC Machine Learning Model (MLM) extension to describe ML models, their training details, and inference runtime requirements. |
+| [Machine Learning Model](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Candidate | 1.5.3 | 2026-09-09 | STAC Machine Learning Model (MLM) extension to describe ML models, their training details, and inference runtime requirements. |
 | [Processing](https://github.com/stac-extensions/processing) | processing | Collection, Item | Candidate | 1.2.0 | 2024-05-09 | Indicates from which processing chain data originates and how the data itself has been produced. |
 | [Raster](https://github.com/stac-extensions/raster) | raster | Collection, Item | Candidate | 2.0.0 | 2024-09-09 | Describes raster assets at band level (one or multiple) with specific information such as data type, unit, number of bits used, nodata. |
 | [Sentinel-2](https://github.com/stac-extensions/sentinel-2) | s2 | Item | Candidate | 1.0.0 | 2023-11-13 | Sentinel-2 STAC Extension |
@@ -90,6 +90,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiles | Catalog, Collection, Item | Proposal | 1.0.0 | 2024-08-23 | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
 | [TrainingDML-AI](https://github.com/openrsgis/trainingdml-ai-extension)* | tdml | Collection, Item | Proposal | 1.0.0 | 2023-05-24 | Detailed metadata for formalizing the information model of geospatial EO machine learning training data.  |
 | [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi) | fws_nwi | Collection, Item | Proposal | 1.0.0 | 2022-10-24 | Describes the U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI) products |
+| [VCS](https://github.com/stac-extensions/vcs) | vcs | Catalog, Collection, Item, Link | Proposal | 0.1.0 | 2026-09-08 | Metadata about version control systems |
 | [Vector](https://github.com/stac-extensions/vector) | vector | Collection, Item | Proposal | 0.1.0 | 2026-02-24 | Vector data properties |
 | [Video](https://github.com/stac-extensions/video) | video | Collection, Item | Proposal | 1.0.0 | 2022-03-15 | Provides a way to describe video assets. |
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | Proposal | 1.0.0 | 2023-11-09 | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
@@ -103,7 +104,6 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Moving Features](https://github.com/stac-extensions/moving-features) | mf | Item | *WIP* | **Unreleased** | N/A | stac extension for moving features |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
 | [Template](https://github.com/stac-extensions/dggs) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | N/A | STAC Extension that describes DGGS datasets |
-| [VCS](https://github.com/stac-extensions/vcs) | vcs | Catalog, Collection, Item, Link | *WIP* | **Unreleased** | N/A | Metadata about version control systems |
 | [Vegetation Phenology and Productivity](https://github.com/stac-extensions/vpp) | vpp | Collection, Item | *WIP* | **Unreleased** | N/A | STAC Extension for Vegetation Phenology and Productivity (CLMS) |
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | Deprecated | **Unreleased** | N/A | Defines how virtual assets can be composed from existing assets in STAC |
 | [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | dlm | Asset, Collection, Item, Links | Deprecated | 1.0.0 | 2024-04-18 | Deep Learning Model STAC Extension (deprecated, see https://github.com/stac-extensions/mlm instead) |
@@ -114,7 +114,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Sep 08 2026, 01:51 UTC
+* **Last updated:** Sep 09 2026, 01:58 UTC
 * **Count:** 90
 
 ## Adding a new extension
