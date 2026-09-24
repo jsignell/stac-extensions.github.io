@@ -34,7 +34,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | 2021-07-26 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.1.0 | 2025-08-15 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
 | [Datacube](https://github.com/stac-extensions/datacube) | cube | Collection, Item | Candidate | 2.3.0 | 2025-06-18 | Datacube related metadata to describe their dimensions and variables. |
-| [Machine Learning Model](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Candidate | 1.5.3 | 2026-09-09 | STAC Machine Learning Model (MLM) extension to describe ML models, their training details, and inference runtime requirements. |
+| [Machine Learning Model](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Candidate | 1.6.0 | 2026-09-23 | STAC Machine Learning Model (MLM) extension to describe ML models, their training details, and inference runtime requirements. |
 | [Processing](https://github.com/stac-extensions/processing) | processing | Collection, Item | Candidate | 1.2.0 | 2024-05-09 | Indicates from which processing chain data originates and how the data itself has been produced. |
 | [Raster](https://github.com/stac-extensions/raster) | raster | Collection, Item | Candidate | 2.0.0 | 2024-09-09 | Describes raster assets at band level (one or multiple) with specific information such as data type, unit, number of bits used, nodata. |
 | [Sentinel-2](https://github.com/stac-extensions/sentinel-2) | s2 | Item | Candidate | 1.0.0 | 2023-11-13 | Sentinel-2 STAC Extension |
@@ -50,7 +50,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Pilot | 1.0.0 | 2022-10-24 | STAC Extension for NOAA MRMS QPE (Multi-Radar Multi-Sensor Quantitative Precipitation Estimation) products |
 | [Order](https://github.com/stac-extensions/order) | order | Collection, Item | Pilot | 1.1.0 | 2023-01-05 | Allows assets ordering management within STAC specification. |
 | [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc | Collection, Item | Pilot | 2.0.0 | 2024-10-24 | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
-| [Rendering](https://github.com/stac-extensions/render) | renders | Collection, Item | Pilot | 2.0.0 | 2024-11-19 | Provide consumers with the information required to view an asset properly (e.g. on a online map) |
+| [Rendering](https://github.com/stac-extensions/render) | renders | Collection, Item | Pilot | 2.1.0 | 2026-09-22 | Provide consumers with the information required to view an asset properly (e.g. on a online map) |
 | [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Pilot | 0.2.0 | 2022-08-01 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
 | [Storage](https://github.com/stac-extensions/storage) | storage | Catalog, Collection, Item | Pilot | 2.0.0 | 2024-10-18 | Provides additional fields relating to how the asset is stored in the cloud |
 | [Table](https://github.com/stac-extensions/table) | table | Collection, Item | Pilot | 1.3.0 | 2026-09-07 | Describes tabular data assets using a list of Column objects. Tables can be specified in Collections. |
@@ -114,7 +114,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Sep 23 2026, 02:14 UTC
+* **Last updated:** Sep 24 2026, 02:00 UTC
 * **Count:** 90
 
 ## Adding a new extension
