@@ -28,7 +28,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Electro-Optical](https://github.com/stac-extensions/eo) | eo | Collection, Item | Stable | 2.0.0 | 2024-09-09 | Covers electro-optical data that represents a snapshot of the Earth. It could consist of cloud cover and multiple spectral bands, for example visible bands, infrared bands, red edge bands and panchromatic bands. |
 | [File Info](https://github.com/stac-extensions/file) | file | Catalog, Collection, Item | Stable | 2.1.0 | 2021-12-11 | Specifies file-related details such as size, data type and checksum for assets and links in STAC. |
 | [Landsat](https://github.com/stac-extensions/landsat) | landsat | Item | Stable | 2.0.0 | 2023-11-07 | Landsat data fields |
-| [Projection](https://github.com/stac-extensions/projection) | proj | Collection, Item | Stable | 2.0.0 | 2024-07-22 | Provides a way to describe Items whose assets are in a geospatial projection. |
+| [Projection](https://github.com/stac-extensions/projection) | proj | Collection, Item | Stable | 2.1.0 | 2026-09-29 | Provides a way to describe Items whose assets are in a geospatial projection. |
 | [SAR](https://github.com/stac-extensions/sar) | sar | Collection, Item | Stable | 1.3.2 | 2026-07-13 | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
 | [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Stable | 1.2.0 | 2026-04-30 | Satellite related metadata for data collected from satellites. |
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | 2021-07-26 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
@@ -65,7 +65,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [CEOS-ARD](https://github.com/stac-extensions/ceos-ard) | ceosard | Collection, Item | Proposal | 0.2.0 | 2024-05-07 | Describes how to comply to the CEOS-ARD specifications with STAC. Supersedes the STAC CARD4L extension. |
 | [CF](https://github.com/stac-extensions/cf) | cf | Collection, Item | Proposal | 1.0.0 | 2026-07-30 | Allows to provide the Standard Name Table based on the CF metadata convention. |
 | [CMIP6](https://github.com/stac-extensions/cmip6) | cmip6 | Item | Proposal | 3.0.2 | 2026-03-26 | None |
-| [Contacts](https://github.com/stac-extensions/contacts) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-08-15 | A list of contacts with detailed information such as address, phone numbers, emails etc. |
+| [Contacts](https://github.com/stac-extensions/contacts) | - | Catalog, Collection, Item | Proposal | 1.0.1 | 2026-09-29 | A list of contacts with detailed information such as address, phone numbers, emails etc. |
 | [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)* | disaster | Collection, Item | Proposal | 1.1.0 | 2024-06-05 | Disaster Charter Extension Specification |
 | [Earthquake](https://github.com/stac-extensions/earthquake) | eq | Collection, Item | Proposal | 1.0.0 | 2025-01-20 | Earthquake Extension Specification |
 | [Example Links](https://github.com/stac-extensions/example-links) | example | Catalog, Collection, Item | Proposal | 0.0.1 | 2023-08-14 | Allows to provide links to examples, e.g. code snippets. |
@@ -101,6 +101,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Camera](https://github.com/linz/stac/tree/master/extensions/camera)* | camera | Collection, Item | *WIP* | *Unknown* | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
 | [Film](https://github.com/linz/stac/tree/master/extensions/film)* | film | Collection, Item | *WIP* | *Unknown* | *Unknown* | Film related metadata, such as roll, negative sequence and other physical attributes. Especially useful for digitised historic aerial imagery surveys. |
 | [Hyperspectral Imagery](https://github.com/stac-extensions/hsi) | hsi | Collection, Item | *WIP* | **Unreleased** | N/A | Extension for Hyperspectral Imagery, to preserve the wavelength information for Items. |
+| [Maps](https://github.com/stac-extensions/maps) | none | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | Create maps from STAC data sources |
 | [Moving Features](https://github.com/stac-extensions/moving-features) | mf | Item | *WIP* | **Unreleased** | N/A | stac extension for moving features |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
 | [Template](https://github.com/stac-extensions/dggs) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | N/A | STAC Extension that describes DGGS datasets |
@@ -114,8 +115,8 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Sep 29 2026, 03:06 UTC
-* **Count:** 90
+* **Last updated:** Sep 30 2026, 02:48 UTC
+* **Count:** 91
 
 ## Adding a new extension
 
