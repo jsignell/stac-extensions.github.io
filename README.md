@@ -80,7 +80,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Monty](https://github.com/IFRCGo/monty-stac-extension)* | monty | Collection, Item | Proposal | 1.3.0 | 2026-06-11 | Provide a set of new fields and data type to build a Montandon, Global Crisis Data Bank |
 | [Open Science Catalog](https://github.com/stac-extensions/osc) | osc | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-02-19 | STAC Extension for the ESA Open Science Catalog |
 | [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery) | pers | Collection, Item | Proposal | 1.0.0 | 2022-06-27 | Describes perspective imagery collected by photogrammetric or non-photogrammetric cameras |
-| [Product](https://github.com/stac-extensions/product) | product | Collection, Item | Proposal | 1.0.0 | 2025-06-22 | Generic Product-related properties for STAC |
+| [Product](https://github.com/stac-extensions/product) | product | Collection, Item | Proposal | 1.1.0 | 2026-10-02 | Generic Product-related properties for STAC |
 | [Quality](https://github.com/linz/stac/tree/master/extensions/quality)* | quality | Collection | Proposal | *Unknown* | *Unknown* | Geospatial quality and accuracy of collections, such as horizontal and vertical accuracy. |
 | [Region](https://github.com/stac-extensions/region) | region | Collection, Item | Proposal | 0.1.0 | 2025-07-25 | An extension to describe geographical regions |
 | [Sentinel-1](https://github.com/stac-extensions/sentinel-1) | s1 | Item | Proposal | 0.2.0 | 2024-06-10 | Sentinel-1 STAC Extension  |
@@ -115,7 +115,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Oct 02 2026, 02:56 UTC
+* **Last updated:** Oct 03 2026, 02:42 UTC
 * **Count:** 91
 
 ## Adding a new extension
