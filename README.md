@@ -97,14 +97,15 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | Proposal | 1.0.0 | 2023-11-09 | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, | Catalog, Collection, Item | Proposal | 1.3.0 | 2026-01-01 | Allows to provide links to web maps for visualization purposes |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
+| [Access](https://github.com/stac-extensions/access) | access | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | Data Access related properties (but not authentication) |
 | [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)* | aerial-photo | Collection, Item | *WIP* | *Unknown* | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
 | [Camera](https://github.com/linz/stac/tree/master/extensions/camera)* | camera | Collection, Item | *WIP* | *Unknown* | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
+| [DGGS](https://github.com/stac-extensions/dggs) | dggs | Collection, Item | *WIP* | **Unreleased** | N/A | STAC Extension that describes DGGS datasets |
 | [Film](https://github.com/linz/stac/tree/master/extensions/film)* | film | Collection, Item | *WIP* | *Unknown* | *Unknown* | Film related metadata, such as roll, negative sequence and other physical attributes. Especially useful for digitised historic aerial imagery surveys. |
 | [Hyperspectral Imagery](https://github.com/stac-extensions/hsi) | hsi | Collection, Item | *WIP* | **Unreleased** | N/A | Extension for Hyperspectral Imagery, to preserve the wavelength information for Items. |
 | [Maps](https://github.com/stac-extensions/maps) | none | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | Create maps from STAC data sources |
 | [Moving Features](https://github.com/stac-extensions/moving-features) | mf | Item | *WIP* | **Unreleased** | N/A | stac extension for moving features |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
-| [Template](https://github.com/stac-extensions/dggs) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | N/A | STAC Extension that describes DGGS datasets |
 | [Vegetation Phenology and Productivity](https://github.com/stac-extensions/vpp) | vpp | Collection, Item | *WIP* | **Unreleased** | N/A | STAC Extension for Vegetation Phenology and Productivity (CLMS) |
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | Deprecated | **Unreleased** | N/A | Defines how virtual assets can be composed from existing assets in STAC |
 | [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | dlm | Asset, Collection, Item, Links | Deprecated | 1.0.0 | 2024-04-18 | Deep Learning Model STAC Extension (deprecated, see https://github.com/stac-extensions/mlm instead) |
@@ -115,8 +116,8 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Oct 11 2026, 02:40 UTC
-* **Count:** 91
+* **Last updated:** Oct 12 2026, 03:04 UTC
+* **Count:** 92
 
 ## Adding a new extension
 
