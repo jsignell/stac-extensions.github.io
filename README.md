@@ -79,6 +79,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Asset, Collection, Item, Links | Proposal | 0.2.0 | 2024-03-28 | An Item and Collection extension to provide labeled training data for machine learning models. |
 | [Monty](https://github.com/IFRCGo/monty-stac-extension)* | monty | Collection, Item | Proposal | 1.3.0 | 2026-06-11 | Provide a set of new fields and data type to build a Montandon, Global Crisis Data Bank |
 | [Open Science Catalog](https://github.com/stac-extensions/osc) | osc | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-02-19 | STAC Extension for the ESA Open Science Catalog |
+| [Orthophoto](https://github.com/stac-extensions/ortho) | ortho | Collection, Item | Proposal | 0.1.0 | 2026-10-20 | None |
 | [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery) | pers | Collection, Item | Proposal | 1.0.0 | 2022-06-27 | Describes perspective imagery collected by photogrammetric or non-photogrammetric cameras |
 | [Product](https://github.com/stac-extensions/product) | product | Collection, Item | Proposal | 1.1.0 | 2026-10-02 | Generic Product-related properties for STAC |
 | [Quality](https://github.com/linz/stac/tree/master/extensions/quality)* | quality | Collection | Proposal | *Unknown* | *Unknown* | Geospatial quality and accuracy of collections, such as horizontal and vertical accuracy. |
@@ -106,7 +107,6 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Maps](https://github.com/stac-extensions/maps) | none | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | Create maps from STAC data sources |
 | [Moving Features](https://github.com/stac-extensions/moving-features) | mf | Item | *WIP* | **Unreleased** | N/A | stac extension for moving features |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
-| [Template](https://github.com/stac-extensions/ortho) | *Unknown* | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | None |
 | [Vegetation Phenology and Productivity](https://github.com/stac-extensions/vpp) | vpp | Collection, Item | *WIP* | **Unreleased** | N/A | STAC Extension for Vegetation Phenology and Productivity (CLMS) |
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | Deprecated | **Unreleased** | N/A | Defines how virtual assets can be composed from existing assets in STAC |
 | [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | dlm | Asset, Collection, Item, Links | Deprecated | 1.0.0 | 2024-04-18 | Deep Learning Model STAC Extension (deprecated, see https://github.com/stac-extensions/mlm instead) |
@@ -117,7 +117,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Oct 20 2026, 02:28 UTC
+* **Last updated:** Oct 21 2026, 02:21 UTC
 * **Count:** 93
 
 ## Adding a new extension
