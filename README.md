@@ -55,6 +55,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Storage](https://github.com/stac-extensions/storage) | storage | Catalog, Collection, Item | Pilot | 2.0.0 | 2024-10-18 | Provides additional fields relating to how the asset is stored in the cloud |
 | [Table](https://github.com/stac-extensions/table) | table | Collection, Item | Pilot | 1.3.0 | 2026-09-07 | Describes tabular data assets using a list of Column objects. Tables can be specified in Collections. |
 | [Timestamps](https://github.com/stac-extensions/timestamps) | - | Catalog, Collection, Item | Pilot | 1.1.0 | 2023-01-05 | Allows to specify numerous additional timestamps for assets and metadata. |
+| [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | Pilot | 1.0.1 | 2026-11-13 | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Accuracy](https://github.com/stac-extensions/accuracy) | accuracy | Collection, Item | Proposal | 1.0.0-beta.1 | 2023-12-18 | Fields to provide estimates of accuracy, both geometric and measurement (e.g., radiometric) accuracy. |
 | [Additional Identifiers](https://github.com/stac-extensions/external-ids) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-11-18 | A construct to provide additional identifiers in STAC, as originally defined in OGC APIs. |
 | [Altimetry](https://github.com/stac-extensions/altimetry) | altm | Item | Proposal | 0.1.0 | 2024-06-10 | Altimetry Extension Specification |
@@ -96,7 +97,6 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [VCS](https://github.com/stac-extensions/vcs) | vcs | Catalog, Collection, Item, Link | Proposal | 0.1.0 | 2026-09-08 | Metadata about version control systems |
 | [Vector](https://github.com/stac-extensions/vector) | vector | Collection, Item | Proposal | 0.1.0 | 2026-02-24 | Vector data properties |
 | [Video](https://github.com/stac-extensions/video) | video | Collection, Item | Proposal | 1.0.0 | 2022-03-15 | Provides a way to describe video assets. |
-| [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | Proposal | 1.0.0 | 2023-11-09 | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, | Catalog, Collection, Item | Proposal | 1.3.0 | 2026-01-01 | Allows to provide links to web maps for visualization purposes |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 | [Access](https://github.com/stac-extensions/access) | access | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | Data Access related properties (but not authentication) |
@@ -118,7 +118,7 @@ This list of extensions is grouped by [maturity](https://github.com/radiantearth
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Nov 13 2026, 03:56 UTC
+* **Last updated:** Nov 14 2026, 03:54 UTC
 * **Count:** 94
 
 ## Adding a new extension
